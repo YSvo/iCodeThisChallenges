@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(172, 179, 255);
+}
+
+.container {
+  display: inline-flex;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: grey;
+  height: 90px;
+}
+
+.bottom {
+  background-color: white;
+  height: 610px;
+}
+
+.gap {
+  width: 5px;
+  background-color: rgb(172, 179, 255);
+  z-index: 1;
+}
+
+.first {
+  width: 250px;
+}
+
+.second {
+  width: 300px;
+}
+
+.third {
+  width: 450px;
+}
+
+.overlay {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  border-right: 1010px solid grey;
+  border-bottom: 40px solid transparent;
+  box-sizing: border-box;
+}
