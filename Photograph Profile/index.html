@@ -1,0 +1,105 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="profile-container">
+    <div class="profile-header">
+      <button class="back-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          style="fill: rgb(255, 255, 255); --darkreader-inline-fill: #e8e6e3;" data-darkreader-inline-fill="">
+          <path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path>
+        </svg>
+      </button>
+      <span class="name">Wyninn Ilixisys</span>
+      <button class="context-menu-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24" style="fill: rgb(255, 255, 255); --darkreader-inline-fill: #e8e6e3;"
+          data-darkreader-inline-fill="">
+          <path
+            d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+          </path>
+        </svg></button>
+    </div>
+    <div class="profile-picture-container">
+      <img src="https://cdn.pixabay.com/photo/2022/08/17/13/15/guy-7392539_1280.jpg" class="profile-picture">
+    </div>
+    <div class="profile-stats">
+      <div class="followers">
+        <p class="profile-stats-numbers">230</p>
+        <p class="profile-stats-name">Followers</p>
+      </div>
+      <div class="following">
+        <p class="profile-stats-numbers">140</p>
+        <p class="profile-stats-name">Following</p>
+      </div>
+      <div class="albums">
+        <p class="profile-stats-numbers">15</p>
+        <p class="profile-stats-name">Albums</p>
+      </div>
+    </div>
+    <div class="profile-action-buttons-container">
+      <div class="profile-action-buttons">
+        <button class="follow-button">
+          <img class="follow-button-icon" src="">
+          Follow
+        </button>
+        <button class="message-button">
+          <img src="" class="message-button-icon">
+          Message
+        </button>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="album-selector">
+      <button class="prev-album-button">
+        <svg class="prev-album-button-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24" style="fill: rgb(0, 0, 0); --darkreader-inline-fill: #e8e6e3;"
+          data-darkreader-inline-fill="">
+          <path d="m12.707 7.707-1.414-1.414L5.586 12l5.707 5.707 1.414-1.414L8.414 12z"></path>
+          <path d="M16.293 6.293 10.586 12l5.707 5.707 1.414-1.414L13.414 12l4.293-4.293z"></path>
+        </svg>
+      </button>
+      <div class="album-details">
+        <span class="album-name">Portraits</span>
+        <span class="number-of-photos">25 Photos</span>
+      </div>
+      <button class="next-album-button">
+        <svg class="next-album-button-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24" style="fill: rgb(0, 0, 0); --darkreader-inline-fill: #e8e6e3;"
+          data-darkreader-inline-fill="">
+          <path d="M10.296 7.71 14.621 12l-4.325 4.29 1.408 1.42L17.461 12l-5.757-5.71z"></path>
+          <path d="M6.704 6.29 5.296 7.71 9.621 12l-4.325 4.29 1.408 1.42L12.461 12z"></path>
+        </svg>
+      </button>
+    </div>
+    <section class="album-photos">
+      <div class="row">
+        <img src="https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004_1280.jpg" class="small-box">
+        <img src="https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_1280.jpg" class="small-box">
+        <img src="https://cdn.pixabay.com/photo/2018/01/21/14/16/woman-3096664_1280.jpg" class="small-box">
+      </div>
+
+      <div class="row">
+        <img src="https://cdn.pixabay.com/photo/2016/10/07/08/56/close-up-1721060_1280.jpg" class="medium-box">
+        <img src="https://cdn.pixabay.com/photo/2018/01/06/09/25/hijab-3064633_1280.jpg" alt="" class="medium-box">
+      </div>
+
+      <div class="row">
+        <img src="https://cdn.pixabay.com/photo/2017/12/31/15/56/portrait-3052641_1280.jpg" alt="" class="large-box">
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

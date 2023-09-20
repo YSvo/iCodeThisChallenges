@@ -1,0 +1,175 @@
+/* Reseting Styles (Was Automatically Done On ICodeThis) */
+p,
+h1,
+button {
+  margin: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Add CSS here */
+
+:root {
+  --background-color: #b8b8a0;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Kanit', sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+}
+
+p {
+  color: #6b6b6b;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  padding: 12px 18px;
+  margin-bottom: 40px;
+}
+
+button:hover {
+  opacity: 60%;
+}
+
+.plans-container {
+  display: inline-flex;
+  position: relative;
+}
+
+.spacer {
+  width: 5px;
+  background-color: var(--background-color);
+  z-index: 2;
+}
+
+.slanted-overlay {
+  position: absolute;
+  top: 66px;
+  left: 0;
+  border-right: 810px solid #6b6b6b;
+  border-bottom: 30px solid transparent;
+  box-sizing: border-box;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+}
+
+.light-plan {
+  width: 200px;
+}
+
+.startup-plan {
+  width: 250px;
+}
+
+.bigboy-plan {
+  width: 350px;
+}
+
+.header {
+  background-color: #6b6b6b;
+  display: flex;
+  justify-content: center;
+}
+
+.light-header h1 {
+  color: #d1f72e;
+}
+
+.startup-header h1 {
+  color: #01fec5;
+}
+
+.bigboy-header h1 {
+  color: #33defd;
+}
+
+.plan-details {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  font-size: 4rem;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.price span {
+  font-size: 1rem;
+}
+
+.detail {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.detail-first-line {
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.detail-second-line {
+  font-size: 0.8rem;
+  opacity: 50%;
+}
+
+.disabled {
+  position: relative;
+}
+
+.disabled .detail-first-line,
+.disabled .detail-second-line {
+  opacity: 30%;
+}
+
+.line-through {
+  position: absolute;
+  bottom: 12px;
+  left: -20px;
+  width: 132px;
+  height: 3px;
+  background-color: #6b6b6b;
+  transform: rotate(-16.8deg);
+}
+
+.light-button {
+  background-color: #d1f72e;
+}
+
+.startup-button {
+  background-color: #01fec5;
+}
+
+.bigboy-button {
+  background-color: #33defd;
+}
+
+.shadow {
+  position: absolute;
+  width: 810px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+  bottom: -100px;
+}

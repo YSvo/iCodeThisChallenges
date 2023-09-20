@@ -1,0 +1,100 @@
+body {
+  background-color: #1c2333;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+button {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.completion-pop-up {
+  background-color: #111725;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 30vh;
+  box-shadow: 0 0 20px 5px #1c2e42;
+  position: relative;
+}
+
+.progress-bar-container {
+  width: 90%;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background-color: #263353;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  border-radius: 0.4rem;
+  background-image: linear-gradient(90deg, #a268fe, #ff28f0);
+  background-size: calc(0.9 * 80vw) 100%;
+  box-shadow: inset 5px 0 5px rgba(0, 0, 0, 0.7);
+  transition: width 1.5s;
+}
+
+.completion-text {
+  color: #9a65f7;
+  margin-bottom: 20px;
+}
+
+#completion-amount {
+  color: #ad89ea;
+}
+
+.continue-button {
+  background: transparent;
+  border: 1px solid #b823b4;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.continue-button:hover {
+  border: 1px solid transparent;
+  background: #b823b4;
+}
+
+.recalculate-button {
+  position: absolute;
+  top: 6px;
+  right: 2px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -20px;
+  font-size: 10px;
+  white-space: nowrap;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.recalculate-button:hover .tooltip {
+  opacity: 1;
+}
